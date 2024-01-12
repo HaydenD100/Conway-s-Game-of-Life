@@ -6,7 +6,7 @@ Screenshot of my implementaion of Conway's Game of life
 
 
 # What is Conway's Game of Life
-Conway's Game of Life is a cellular automaton created by John Horton Conway in 1970.
+Conway's Game of Life is a cellular automaton created by John Horton Conway in 1970. You can read more about Conway's Game of life at: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
 # Rules
 The game is made of a grid of cells. Each cell is either dead or alive. Every update of the game each cell has to follow 4 rules.
