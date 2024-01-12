@@ -1,4 +1,5 @@
 # Conway's Game of Life
+Download at Itch.io:https://haydend100.itch.io/conways-game-of-life
 
 Screenshot of my implementaion of Conway's Game of life 
 ![screenshot](/docs/assets/screenshot1.png)
