@@ -3,19 +3,13 @@ Made by HaydenD100
 GitHub: https://github.com/HaydenD100
 Date 2024-01-11
 This is an implementation of Conway's game of life a cellular automaton created by John Horton Conway in 1970.
-
-
-
 */
-
 
 #include <iostream>
 #include <SDL.h>
 #include <vector>
 
 using namespace std;
-
-
 
 //Defines the width and height of the SDL widnow and the size of the grid in pixels 
 #define WIDTH 800
@@ -27,19 +21,6 @@ struct cell {
 	int alive = 0;
 	int neighbours = 0;
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //This function takes the grid of cells and the position of the current cell and outputs the number of neighbours that cell has, this function runs through every cell in the update function before updating each cell.
 int CheckNeighbour(vector<vector<cell>>&grid, int x, int y)
@@ -101,7 +82,6 @@ void Update(vector<vector<cell>> &grid)
 
 	
 }
-
 
 void Draw(SDL_Renderer* renderer, vector<vector<cell>>& grid, bool drawGridOutline) {
 	//sets the background colour and then clears the window 
@@ -178,19 +158,11 @@ int main(int argc, char* args[]) {
 
 	}
 
-
-	
-
 	SDL_Init(SDL_INIT_EVERYTHING);
 
 	SDL_Window* window = SDL_CreateWindow("Conway's Game Of life", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, WIDTH, HEIGHT, SDL_WINDOW_ALLOW_HIGHDPI);
 	SDL_Event windowEvent;
 	SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
-
-
-	
-
-	
 
 	//Game loop 
 	while (true) {
