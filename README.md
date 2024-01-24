@@ -24,3 +24,6 @@ You can pause and play the simulation at anytime by pressing the "p" key this al
 You can make cells alive or dead at anytime using the mouse button, "Left Click" to make a cell alive and "Right Click" to make the cell dead.
 Pressing "g" display a grid of the cells making it easier to edit cells.
 
+# Implementation
+Coded in c++ with SDL2 for rendering.
+
